@@ -1,6 +1,6 @@
 /*
    Alphamju - on the way to a single Dummy Solver
-   Copyright (C) 2024 by Kalle Prorok
+   Copyright © 2024 by Kalle Prorok. All rights reserved.
 
    NOT READY YET - WORK IN PROGRESS
 

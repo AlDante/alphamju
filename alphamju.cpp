@@ -23,6 +23,11 @@
 #include <list>
 #include <chrono>
 #include <map>
+#include <boost/predef.h> // For identifying which OS we're compiling for
+#if !defined(BOOST_OS_WINDOWS) && !defined(BOOST_OS_MACOS)
+#include "strlcpy.h"
+#endif
+
 //#include <algorithm>
 //#include <execution>
 
@@ -30,6 +35,7 @@
 //using namespace concurrency;
 #include <omp.h>
 #include "hands.cpp" // To get definitions and useful functions
+#include <cstring>
 
 using namespace std;
 using namespace std::chrono;
@@ -256,7 +262,13 @@ int doubleDummy(short int world, const State& state)
     int threadIndex = 0;
     int res;
     char line[80];// , lin[80];
-    strcpy_s(line, 80, "DD:"); //Double Dummy result
+
+    #if BOOST_OS_WINDOWS
+        strcpy_s(line, sizeof(line)), "DD:"); //Double Dummy result
+    # elif BOOST_OS_MACOS
+        strlcpy(line, "DD:", sizeof(line));
+    #else # Linux, iOS,...
+    #endif
     dl.trump = trumpc;// [handno] ;
     dl.first = state.firstc; //  handtoplay; // [handno] ; // TODO Correct player!
 

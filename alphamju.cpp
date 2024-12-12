@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "include/dll.h"
+#include "dll.h"
 #include "hands.h"
 #include <set>
 #include <list>
@@ -265,9 +265,8 @@ int doubleDummy(short int world, const State& state)
 
     #if BOOST_OS_WINDOWS
         strcpy_s(line, sizeof(line)), "DD:"); //Double Dummy result
-    # elif BOOST_OS_MACOS
+    # else
         strlcpy(line, "DD:", sizeof(line));
-    #else # Linux, iOS,...
     #endif
     dl.trump = trumpc;// [handno] ;
     dl.first = state.firstc; //  handtoplay; // [handno] ; // TODO Correct player!

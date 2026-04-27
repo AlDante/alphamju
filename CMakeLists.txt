@@ -1,14 +1,25 @@
 cmake_minimum_required(VERSION 3.30)
 project(alphamju)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/opt/local/share/cmake-3.29/Modules/")
 
-#find_package(Boost REQUIRED COMPONENTS regex)
-include_directories(../dds/include ../dds/examples ../../dev/catboost/contrib/libs/cxxsupp/openmp . ${Boost_INCLUDE_DIRS} )
+message(STATUS,  "CMAKE_MODULE_PATH is: " ${CMAKE_MODULE_PATH})
+
+set(CMAKE_CXX_STANDARD 17)
+#SET(BOOST_ROOT "/opt/local/libexec/boost/1.76/")
+
+#SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "C:/win32libs/boost")
+#SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "C:/win32libs/boost/lib")
+
+find_package(Boost REQUIRED)
+#find_package(OpenMP REQUIRED)
+
+include_directories(../dds/include ../dds/examples /opt/homebrew/opt/libomp/include  . ${Boost_INCLUDE_DIRS} )
+#target_link_libraries(dds ${Boost_LIBRARIES})
 add_executable(alphamju
         alphamju.cpp
-        /Users/david/Documents/dev/CLionProjects/dds/include/dll.h
         strlcpy.c
         strlcpy.h)
-target_link_libraries(alphamju -static)
-target_link_libraries(alphamju ${Boost_LIBRARIES})
+target_link_libraries(alphamju ${Boost_LIBRARIES}
+        /usr/local/lib/libMacDDS.dylib
+)

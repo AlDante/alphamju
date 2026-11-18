@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/Users/david/Documents/dev/CLionProjects/alphamju/../dds/include -I/Users/david/Documents/dev/CLionProjects/alphamju/../dds/examples -I/opt/homebrew/opt/libomp/include -I/Users/david/Documents/dev/CLionProjects/alphamju/. -I/opt/homebrew/include -g -std=gnu++17 -arch arm64 -fcolor-diagnostics -o CMakeFiles/alphamju.dir/alphamju.cpp.o -c /Users/david/Documents/dev/CLionProjects/alphamju/alphamju.cpp",
+  "file": "/Users/david/Documents/dev/CLionProjects/alphamju/alphamju.cpp",
+  "output": "/Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug/CMakeFiles/alphamju.dir/alphamju.cpp.o"
+},
+{
+  "directory": "/Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/david/Documents/dev/CLionProjects/alphamju/../dds/include -I/Users/david/Documents/dev/CLionProjects/alphamju/../dds/examples -I/opt/homebrew/opt/libomp/include -I/Users/david/Documents/dev/CLionProjects/alphamju/. -I/opt/homebrew/include -g -arch arm64 -fcolor-diagnostics -o CMakeFiles/alphamju.dir/strlcpy.c.o -c /Users/david/Documents/dev/CLionProjects/alphamju/strlcpy.c",
+  "file": "/Users/david/Documents/dev/CLionProjects/alphamju/strlcpy.c",
+  "output": "/Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug/CMakeFiles/alphamju.dir/strlcpy.c.o"
+}
+]

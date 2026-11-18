@@ -1,0 +1,352 @@
+play H9 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 0. 
+DD:
+  card suit   rank   equals score 
+     0 H      7      6      1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K8
+            5
+            -
+
+
+play H9 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 H      5      43     1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K8
+            5
+            -
+
+
+play H9 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 H      5      43     1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K8
+            5
+            -
+
+
+play HK Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 0. 
+DD:
+  card suit   rank   equals score 
+     0 H      7      6      1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            98
+            5
+            -
+
+
+play HK Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 H      5      43     2     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            98
+            5
+            -
+
+
+play HK Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 H      5      43     2     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            98
+            5
+            -
+
+
+play D5 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 0. 
+DD:
+  card suit   rank   equals score 
+     0 D      K             1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            -
+            -
+
+
+play D5 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 D      K             1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            -
+            -
+
+
+play D5 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 0. 
+DD:
+  card suit   rank   equals score 
+     0 D      K             1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+Q76                     543
+K                       J
+-                       -
+            -
+            K98
+            -
+            -
+
+
+play D5 Original hand:-------------
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            5
+            -
+
+
+World 1. 
+DD:
+  card suit   rank   equals score 
+     0 D      K             1     
+
+DD:--
+            -
+            AJT
+            7
+            -
+-                       -
+543                     Q76
+K                       J
+-                       -
+            -
+            K98
+            -
+            -
+
+
+ 1 1
+Time taken by function : 0.007267 seconds

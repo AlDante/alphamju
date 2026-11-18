@@ -1,0 +1,5 @@
+/Users/david/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/david/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/david/Documents/dev/CLionProjects/alphamju -B /Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug
+STATUS,CMAKE_MODULE_PATH is: /opt/local/share/cmake-3.29/Modules/
+-- Configuring done (15.4s)
+-- Generating done (10.9s)
+-- Build files have been written to: /Users/david/Documents/dev/CLionProjects/alphamju/cmake-build-debug
